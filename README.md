@@ -18,10 +18,10 @@ The implementation and related codes used in this work are the following:
 To test the CS-kNN, you can copy and paste the following command in the interface (right click the configuration text edit and select "Enter configuration”).
 Sample command: 
 
-`EvaluatePrequential -l (lazy.CS_kNN -d 5 -f 500) -s ArffFileStream -e BasicClassificationPerformanceEvaluator`
+`EvaluatePrequential -l (lazy.CS_kNN -d 5 -f 500) -s (ArffFileStream -f /pathto/tweet500.arff) -e BasicClassificationPerformanceEvaluator`
 
-Explanation: this command executes CS-kNN prequential evaluation precising the output and input dimensionality, d and f respectively on the Tweet500 dataset (-f Tweet1.arff). 
-**Make sure to extract the Tweet1.arff dataset, and setting -f to its location, before executing the command.**
+Explanation: this command executes CS-kNN prequential evaluation precising the output and input dimensionality, d and f respectively on the tweet500 dataset (-f tweet1.arff). 
+**Make sure to extract the tweet500.arff dataset, and setting -f to its location (pathto), before executing the command.**
 
 ## Datasets used in the original paper
 The real datasets are compressed and available at the root directory. 
